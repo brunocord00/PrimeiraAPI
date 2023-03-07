@@ -21,4 +21,6 @@ def PegarFruta(idfruta):
     except:
         return "Fruta não existe."
     
+    #criar rota para contagem de fruta
+    
 app.run(port=6642)
